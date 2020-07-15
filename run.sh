@@ -1,7 +1,8 @@
+source params.sh
 mkdir -p results
 bash test_api.sh
-sleep 10
+sleep ${sleep_time}
 bash test_api_local.sh
-sleep 10
+sleep ${sleep_time}
 bash test_endpoint.sh
 bash report.sh
