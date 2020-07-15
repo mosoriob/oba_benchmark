@@ -1,4 +1,4 @@
-source env
+source ./env
 mkdir -p ${report_dir}
 bash test_api.sh
 sleep ${sleep_time}

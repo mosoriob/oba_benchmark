@@ -1,4 +1,4 @@
-source env
+source ./env
 test_name="${duration}_${max_workers}_${rate}"
 name="api_cached_enabled_${test_name}"
 file_name="${report_dir}/${name}"
