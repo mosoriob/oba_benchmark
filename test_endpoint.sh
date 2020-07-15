@@ -1,5 +1,5 @@
 source params.sh
-test_name = "${duration}_${max_workers}_${rate}"
+test_name="${duration}_${max_workers}_${rate}"
 name="api_cached_disabled_${test_name}"
 file_name="${name}"
 cat post | \
