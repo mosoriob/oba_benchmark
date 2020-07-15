@@ -1,0 +1,4 @@
+POST https://endpoint.mint.isi.edu/modelCatalog-1.4.0
+Accept: application/rdf+json
+Content-Type: application/x-www-form-urlencoded; charset=UTF-8
+@body.txt
