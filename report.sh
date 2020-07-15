@@ -1,5 +1,6 @@
 source ./env
 for i in $(find ${report_dir} -name *json); do
-    cat $i | ./vegeta report $i > "${i}.txt"
-    cat $i | ./vegeta report -type=hdrplot $i > "${i}_hdrplot.txt"
+    filename=${i%.*}
+    cat $i | ./vegeta report $i > "${filename}.txt"
+    cat $i | ./vegeta report -type=hdrplot $i > "${filename}_hdrplot.txt"
 done
