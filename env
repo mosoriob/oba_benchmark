@@ -1,5 +1,5 @@
 duration="60s"
-max_workers=10
-rate="10"
+max_workers=60
+rate="60"
 sleep_time=10
 report_dir="results/"
