@@ -1,5 +1,5 @@
-source params.sh
-mkdir -p results
+source env
+mkdir -p ${report_dir}
 bash test_api.sh
 sleep ${sleep_time}
 bash test_api_local.sh
